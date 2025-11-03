@@ -14,7 +14,7 @@
         Console.WriteLine($"Value of P1: {Circle.PI}");
 
         Circle c = new Circle();
-        double radius = 5;
+        double radius = 4;
         Console.WriteLine($"Area: {c.CalculateArea(radius)}");
         Console.WriteLine($"Perimeter: {c.CalculatePerimeter(radius)}");
     }
